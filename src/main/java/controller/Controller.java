@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
     @RequestMapping(value = "/jenkins", method = RequestMethod.GET)
     public void viewBusiness() {
-        System.out.println("hello world 1");
+        System.out.println("hello world 2");
     }
 }
