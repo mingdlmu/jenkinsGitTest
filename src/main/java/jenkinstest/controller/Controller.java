@@ -1,4 +1,4 @@
-package controller;
+package jenkinstest.controller;
 
 
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("test")
 public class Controller {
     @RequestMapping(value = "/jenkins", method = RequestMethod.GET)
-    public void viewBusiness() {
-        System.out.println("hello world 2");
+    public String viewBusiness(){
+        return  "hello world";
     }
 }
